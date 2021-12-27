@@ -1,4 +1,4 @@
-package com.zolad.videoslimmer.sample;
+package numan.dev.videoslimmer.sample;
 
 import android.Manifest;
 import android.annotation.SuppressLint;

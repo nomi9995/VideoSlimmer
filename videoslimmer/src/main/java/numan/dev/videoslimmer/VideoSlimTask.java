@@ -1,8 +1,8 @@
-package com.zolad.videoslimmer;
+package numan.dev.videoslimmer;
 
 import android.os.AsyncTask;
 
-import com.zolad.videoslimmer.listner.SlimProgressListener;
+import numan.dev.videoslimmer.listner.SlimProgressListener;
 
 
 /**

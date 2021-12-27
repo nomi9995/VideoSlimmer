@@ -1,4 +1,4 @@
-package com.zolad.videoslimmer.sample;
+package numan.dev.videoslimmer.sample;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.zolad.videoslimmer.sample", appContext.getPackageName());
+        assertEquals("numan.dev.videoslimmer.sample", appContext.getPackageName());
     }
 }

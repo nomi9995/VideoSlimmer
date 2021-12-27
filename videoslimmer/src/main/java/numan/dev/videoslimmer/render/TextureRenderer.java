@@ -1,4 +1,4 @@
-package com.zolad.videoslimmer.render;
+package numan.dev.videoslimmer.render;
 
 import android.graphics.SurfaceTexture;
 import android.opengl.GLES11Ext;

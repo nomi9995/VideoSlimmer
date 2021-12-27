@@ -1,4 +1,4 @@
-package com.zolad.videoslimmer;
+package numan.dev.videoslimmer;
 
 import android.media.MediaCodec;
 import android.media.MediaCodecInfo;
@@ -11,8 +11,8 @@ import android.os.Build;
 import android.util.Log;
 import android.view.Surface;
 
-import com.zolad.videoslimmer.listner.SlimProgressListener;
-import com.zolad.videoslimmer.muxer.CodecInputSurface;
+import numan.dev.videoslimmer.listner.SlimProgressListener;
+import numan.dev.videoslimmer.muxer.CodecInputSurface;
 
 import java.io.File;
 import java.io.IOException;

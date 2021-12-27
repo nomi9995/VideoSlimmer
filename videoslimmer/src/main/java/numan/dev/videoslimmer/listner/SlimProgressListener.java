@@ -1,4 +1,4 @@
-package com.zolad.videoslimmer.listner;
+package numan.dev.videoslimmer.listner;
 
 public interface SlimProgressListener {
 

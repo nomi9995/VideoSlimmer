@@ -1,4 +1,4 @@
-package com.zolad.videoslimmer;
+package numan.dev.videoslimmer;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.zolad.videoslimmer.sample;
+package numan.dev.videoslimmer.sample;
 
 import android.Manifest;
 import android.annotation.TargetApi;
@@ -17,7 +17,7 @@ import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.zolad.videoslimmer.VideoSlimmer;
+import numan.dev.videoslimmer.VideoSlimmer;
 
 import java.io.File;
 import java.net.URISyntaxException;

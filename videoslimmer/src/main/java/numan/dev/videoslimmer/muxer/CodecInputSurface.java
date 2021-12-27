@@ -1,4 +1,4 @@
-package com.zolad.videoslimmer.muxer;
+package numan.dev.videoslimmer.muxer;
 
 import android.graphics.SurfaceTexture;
 import android.opengl.EGL14;
@@ -9,7 +9,7 @@ import android.opengl.EGLExt;
 import android.opengl.EGLSurface;
 import android.view.Surface;
 
-import com.zolad.videoslimmer.render.TextureRenderer;
+import numan.dev.videoslimmer.render.TextureRenderer;
 
 import java.nio.ByteBuffer;
 

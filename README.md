@@ -1,26 +1,25 @@
-VideoSlimmer
-==============
-A video converter for Android to compress video using MediaCodec(decode and encode). 一个安卓视频压缩工具,使用了Mediacodec
+# VideoSlimmer
+
+A video converter for Android to compress video using MediaCodec(decode and encode). 一个安卓视频压缩工具,使用了 Mediacodec
 
 ![screenshot1~](https://raw.github.com/zolad/VideoSlimmer/master/screenshot/screenshot_1.gif)
 
-Features
-==============
+# Features
+
 - Using Mediacodec to decode and encode video,support mp4/3gp format
 - High-performance
 
+# Dependency
 
-Dependency
-==============
-### Add this in your build.gradle file 
+### Add this in your build.gradle file
+
 ```gradle
-compile 'com.zolad:videoslimmer:1.0.0'
+compile 'numan.dev:videoslimmer:1.0.0'
 ```
 
-Usage
-==============
-### Call VideoSlimmer.convertVideo and set params
+# Usage
 
+### Call VideoSlimmer.convertVideo and set params
 
 ```java
 
@@ -50,12 +49,10 @@ Usage
                            //percent of progress
                         }
                     });
-        
+
 ```
 
-
-License
-==============
+# License
 
     Copyright 2018 Zolad
 
