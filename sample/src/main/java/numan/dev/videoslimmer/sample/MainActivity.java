@@ -130,9 +130,14 @@ public class MainActivity extends AppCompatActivity {
 
                             tv_indicator.setText("");
 
+                        }
 
+                        @Override
+                        public void onError(String errorMessage) {
 
                         }
+
+
 
                         @Override
                         public void onFinish(boolean result) {

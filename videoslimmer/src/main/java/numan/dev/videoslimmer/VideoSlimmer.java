@@ -21,6 +21,7 @@ public class VideoSlimmer {
         void onStart();
         void onFinish(boolean result);
         void onProgress(float progress);
+        void onError(String errorMessage);
 
     }
 

@@ -313,6 +313,10 @@ public class VideoSlimEncoder {
                                             mInputSurface.awaitNewImage();
                                         } catch (Exception e) {
                                             errorWait = true;
+                                            if(e.getMessage().equals("java.lang.InterruptedException"))
+                                            {
+                                            return false;
+                                            }
                                             Log.e(TAG, e.getMessage());
                                         }
                                         if (!errorWait) {

@@ -54,4 +54,10 @@ public class VideoSlimTask extends AsyncTask<Object, Float, Boolean> {
             }
         }
     }
+
+    @Override
+    protected void onCancelled() {
+        super.onCancelled();
+        mListener.onError("");
+    }
 }
