@@ -1,5 +1,6 @@
 package numan.dev.videoslimmer;
 
+import android.annotation.SuppressLint;
 import android.media.MediaCodec;
 import android.media.MediaCodecInfo;
 import android.media.MediaExtractor;
@@ -412,6 +413,7 @@ public class VideoSlimEncoder {
     }
 
 
+    @SuppressLint("WrongConstant")
     private long simpleReadAndWriteTrack(MediaExtractor extractor, MediaMuxer mediaMuxer, MediaCodec.BufferInfo info, long start, long end, File file, boolean isAudio) throws Exception {
         int trackIndex = selectTrack(extractor, isAudio);
         if (trackIndex >= 0) {
