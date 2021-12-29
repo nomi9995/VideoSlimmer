@@ -609,25 +609,29 @@ public class VideoSlimEncoder {
      * Releases encoder resources.  May be called after partial / failed initialization.
      */
     private void releaseCoder() {
-        if (VERBOSE) Log.d(TAG, "releasing encoder objects");
-        if (mEncoder != null) {
-            mEncoder.stop();
-            mEncoder.release();
-            mEncoder = null;
-        }
-        if (mDecoder != null) {
-            mDecoder.stop();
-            mDecoder.release();
-            mDecoder = null;
-        }
-        if (mInputSurface != null) {
-            mInputSurface.release();
-            mInputSurface = null;
-        }
-        if (mMuxer != null) {
-            mMuxer.stop();
-            mMuxer.release();
-            mMuxer = null;
+        try {
+            if (VERBOSE) Log.d(TAG, "releasing encoder objects");
+            if (mEncoder != null) {
+                mEncoder.stop();
+                mEncoder.release();
+                mEncoder = null;
+            }
+            if (mDecoder != null) {
+                mDecoder.stop();
+                mDecoder.release();
+                mDecoder = null;
+            }
+            if (mInputSurface != null) {
+                mInputSurface.release();
+                mInputSurface = null;
+            }
+            if (mMuxer != null) {
+                mMuxer.stop();
+                mMuxer.release();
+                mMuxer = null;
+            }
+        } catch(final Exception exception) {
+            Log.e(TAG, "Error while releasing the codec", exception);
         }
     }
 
